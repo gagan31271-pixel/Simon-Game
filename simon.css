@@ -1,0 +1,44 @@
+body{
+    font-family: 'Times New Roman',sans-serif;
+    text-align: center;
+}
+h2{
+    text-align: center;
+    color:blue;
+}
+
+h4{
+    color:brown;
+}
+
+.container{
+    display:flex;
+    justify-content: center;
+}
+
+.red,.green,.yellow,.blue{
+    height: 200px;
+    width:200px;
+    border-radius: 20%;
+    border:12px solid black;
+    margin:10px;
+}
+
+.red{
+    background-color: red;
+}
+.green{
+    background-color: green;
+}
+.yellow{
+    background-color: rgb(231, 220, 16);
+}
+.blue{
+    background-color: skyblue;
+}
+
+.flash{
+    background-color: aliceblue;
+}
+
+
